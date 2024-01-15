@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../backgroundscheme.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+  background-position: center; 
+  font-family: Arial, sans-serif; 
+}
+
+h1 {
+  font-family: 'Alfa Slab One', serif;
+  font-weight: 400;
+  font-size: 75px;
+  margin-top: 0;
+  color: rgb(62, 4, 106);
+  text-shadow: 2px 2px 4px rgba(201, 215, 13, 0.5);
+
+}
+
+.backbtn {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  background-color: rgb(201, 132, 42); 
+  color:rgb(62, 4, 106);
+  text-shadow: 2px 2px 4px rgba(222, 232, 84, 0.5);
+ 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s; 
+
+
+}
