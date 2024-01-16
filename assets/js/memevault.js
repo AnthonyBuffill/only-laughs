@@ -1,6 +1,5 @@
 const clearBtn = document.querySelector('.clearBtn');
 const memeVaultContainer = document.getElementById('memeVaultContainer');
-const memeContainer = document.createElement('div');
 
 document.addEventListener('DOMContentLoaded', function () {
   const savedMemes = JSON.parse(localStorage.getItem('memes')) || [];
@@ -8,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function displayMemes(memes) {
-
   memes.forEach(meme => {
+    const memeContainer = document.createElement('div'); 
     memeContainer.className = 'meme-item';
     memeContainer.innerHTML = `
       <div class="meme-content">
@@ -25,3 +24,4 @@ clearBtn.addEventListener('click', function () {
   localStorage.removeItem('memes');
   memeVaultContainer.innerHTML = '';
 });
+
