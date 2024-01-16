@@ -1,103 +1,96 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-
-nav {
-    float: left;
-    width: 30%;
-    background: #ccc;
-    padding: 20px;
-  }
-  /* nav ul {
-    list-style-type: none;
-    padding: 0;
-  } */
   
+  nav {
+   width: 100%;
+   background: #ccc;
+   padding: 20px;
+   font-size: 30px;
+   background: #5D1E8E;
+   font-family:Arial, Helvetica, sans-serif;
+   color: white;
+   padding:16px;
+   border-radius: 10px;
+   font-weight:lighter;
+   box-shadow:4px 4px 6px #888;
+   text-align:center;
+   display:block;
+  }
   body {
-    margin: 0;
-    padding: 0;
-    background-image: url('./images/OnlyLaughsbackground.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, sans-serif;
+   width: 100%;
+   overscroll-behavior: none;
   }
-  
 
-
-h1
-{
+.pageBackground{
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     background-image: url(../css/images/OnlyLaughsbackground.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+   
+     background-position: center;
+    
+     font-family: Arial, sans-serif;
+}
+  /* h1
+  {
   font-size: 30px;
-  background: darkorchid;
-  /* text-shadow: 1px 1px blue, -3px 0 4px gray; */
-  font-family:Arial, Helvetica, sans-serif;
-  color: white;
-  padding:16px;
-  border-radius: 10px;
-  font-weight:lighter;
-  box-shadow:4px 4px 6px #888;  
-  text-align:center;
-  display:block;
-  margin:16px;
-  background-image:url();  
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
   }
-  .jokesContainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
+  h2{
+     font-size: 30px;
+     color: black;
   }
-.button-container-left{
-    padding-left: 100px;
-}
+  h3{
+   font-size: 30px;
+   color: white;
+  } */
+/* 
+  @media screen and (max-width: 480px) {
+     html { 
+       background: url('small_OnlyLaughsbackground.png') no-repeat center center fixed; 
+     }
+   }
+   @media screen and (min-width: 481px) and (max-width: 900px) {
+     html {
+       background: url('med_OnlyLaughsbackground.png') no-repeat center center fixed; 
+     }
+   }
+   @media screen and (min-width: 901px) {
+     html {
+       background: url('large_OnlyLaughsbackground.png') no-repeat center center fixed; 
+     }
+   } */
+   /* html { 
+     background-size: cover;
+     -webkit-background-size: cover;
+     -o-background-size: cover;
+     -moz-background-size: cover;  
+   } */
 
-.buttons.mb-4{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-}
+  /* @media (max-width: 768px) {
+     .middle-container {
+       /* styles for screen sizes smaller than 768px */
+     /* }
+  } */ 
 
-h3{
-    font-size: 25px;
-    color: white;
-}
+ 
 
+ /* body {
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     background-image: url(/OnlyLaughsbackground.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+     font-family: Arial, sans-serif;
+   } */
 
-
-
-/* button.randomBtn{
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    color: white;
-    border-radius: 4px;
-    background: #5372f0;
-}
-
-button.saveBtn{
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    cursor: pointer;
-    outline: none;
-    border: none;
-    color: white;
-    border-radius: 4px;
-    background: #5372f0;
-} */
+  footer{
+     background: darkorchid;
+  }
