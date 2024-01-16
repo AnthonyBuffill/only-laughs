@@ -22,7 +22,6 @@ function displayMemes(memes) {
 }
 
 clearBtn.addEventListener('click', function () {
-  localStorage.removeItem('memes');
-  const memeVaultContainer = document.getElementById('memeVaultContainer');
+  localStorage.removeItem('memes')
   memeVaultContainer.innerHTML = '';
 });
