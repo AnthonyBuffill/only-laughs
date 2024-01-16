@@ -1,7 +1,7 @@
 *{
   margin: 0;
-  padding: 0%;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+
 }
   
   nav {
@@ -24,16 +24,14 @@
    overscroll-behavior: none;
   }
 
-.pageBackground{
+.pageBackground {
      width: 100%;
      margin: 0;
      padding: 0;
-     background-image: url(..//assets/css/images/OnlyLaughsbackground.png);
+  background-image: url(./images/OnlyLaughsbackground.png);
      background-repeat: no-repeat;
      background-attachment: fixed;
-   
      background-position: center;
-    
      font-family: Arial, sans-serif;
 }
   /* h1
