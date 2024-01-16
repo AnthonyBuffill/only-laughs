@@ -32,3 +32,8 @@ nav {
 button {
   background-color: blue;
 }
+
+.imageSize {
+  width: 250px;
+  height: 250px;
+}
