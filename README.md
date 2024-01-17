@@ -1,11 +1,27 @@
-Welcome to ONLY LAUGHS!  
+# ONLY LAUGHS!  
 
-Welcome to ONLY LAUGHS!  
+
+## User Story
+
+AS A person looking to brighten my day
+I WANT to go to a webpage that generates memes and jokes randomly
+SO THAT I can make myself and other people laugh
+
+
+## Description
+
+In this repository, you will find the source code of the Only Laughs website. You will also find three HTML files, two functioning JavaScript files, and three CSS files all filled with laughs! The source code contains fully functional generator buttons, links to different pages, two API keys, TailwindCSS styles, as well as a save button which will be explained more in depth in the following:
+
+
+## Welcome to ONLY LAUGHS!  
 
 This website is a fun user friendly experience created to provide a spark of fun to your day.
 
-Once you enter our landing page, you will find dynamically styled interface that may even appear a bit nostalgic.
-Other than the title that lets you know you've come to the right place, you will notice there are a couple of buttons to interact with.
+
+## Instructions
+
+Once you enter our landing page, you will find dynamically styled interface that may even appear a bit nostalgic. Other than the title that lets you know you've come to the right place, you will notice there are a couple of buttons to interact with.
+
 The first button to the left is labeled "Picture Generator" and beneath that you will find a similiar button labeled "Joke Generator".
 Now this is where the fun truly begins...
 
@@ -26,4 +42,43 @@ So please enjoy our website and if you are interested in contacting us, the deve
 There you will find information to contact us individually by clicking the links to our profile pages containing links to other projects and various ways to contact us should you want to reach out. We hope you enjoy what we've created!
 
 
- 
+## Technologies Used
+
+HTML
+CSS
+TailWindCSS
+Joke API 
+Picture API
+JavaScript
+
+
+## Screenshots
+
+Home page:
+
+![img](./)
+
+Meme Vault:
+
+![img](./)
+
+Contact:
+
+![img](./assets/images/contacts-screenshot.png)
+
+
+## Contact
+
+[Anthony Buffill](https://github.com/AnthonyBuffill) - HTML CSS for MEME VAULT
+
+[Hye-Ji Shin](https://github.com/shinhye-ji) - HTML CSS TailwindCSS for Contact 
+
+[Brian Doherty](https://github.com/Bdoherty1) - HTML CSS TailwindCSS for Home
+
+[Joshua Roth](https://github.com/JoshRTheDeveloper) - JavaScript for MEME VAULT and Home
+
+
+## Live Link
+
+[Live]()
+
