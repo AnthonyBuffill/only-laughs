@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function displayMemes(memes) {
   memes.forEach(meme => {
-    const memeContainer = document.createElement('div'); 
+    const memeContainer = document.createElement('div'); // Create a new container for each meme
     memeContainer.className = 'meme-item';
     memeContainer.innerHTML = `
       <div class="meme-content">
@@ -24,4 +24,3 @@ clearBtn.addEventListener('click', function () {
   localStorage.removeItem('memes');
   memeVaultContainer.innerHTML = '';
 });
-
