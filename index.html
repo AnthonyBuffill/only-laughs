@@ -12,22 +12,21 @@
 <body class="pageBackground">
 
     <nav class="fixed w-full">
-        <h1 class="font-serif tracking-wide uppercase text-gray-darker">Only Laughs</h1>
-      
-        </div>
+        <h1 class="font-serif tracking-wide tracking-wider uppercase text-gray-darker">Only Laughs</h1>
     </nav>
 
         <div class="flex flex-col items-center justify-center h-screen content md:flex-row">
             <div class="p-4 text-center lg:w-1/4 lg:pr-20 md:w-1/3 sm:w-1/2 left-container h-50">
-            <div class="font-serif text-xl lg:uppercase lg:text-white sm:text-gray-darker">
+            <div class="font-serif text-xl lg:uppercase lg:bold lg:tracking-wider lg:text-white sm:text-gray-darker">
                 <h3>Picture Generator</h3>
                 <button class="px-4 py-2 mb-6 font-bold bg-yellow-400 border-b-4 border-yellow-700 rounded lg:text-white sm:text-gray-darker hover:bg-yellow-400 hover:border-yellow-500">Generate Joke</button>
             </div>
-            <div class="font-serif text-xl lg:uppercase lg:bold lg:tracking-wide lg:text-white sm:text-gray-darker">
+            <div class="font-serif text-xl lg:uppercase lg:bold lg:tracking-wider lg:text-white sm:text-gray-darker">
                 <h3>Joke Generator</h3>
                 <button class="px-4 py-2 space-x-6 font-bold bg-yellow-400 border-b-4 border-yellow-700 rounded lg:text-white sm:text-gray-darker hover:bg-yellow-400 hover:border-yellow-500">Generate Joke</button>
             </div>
         </div>
+        
         <div class="h-64 p-4 text-center lg:h-96 lg:pl-20 lg:w-1/2 sm:2-1/2 middle-container">
             <div class="rounded-lg shadow-lg w-80">
                 <div class="rounded h-80 bg-white-400 t-lg">
@@ -39,26 +38,27 @@
                     min-width="100"
                     class="mx-auto"
                     alt="Meme content"
-                    style="aspect-ratio: 100 / 100; object-fit: cover;"/>
+                    style="aspect-ratio: 100 / 100; object-fit: cover;"
+                    />
             <div class="flex pl-2 mb-4 space-x-14 buttons">
                 <!-- .ramdonJokeBtn -->
                 <button class="px-4 py-2 space-x-4 font-bold bg-purple-500 border-b-4 border-purple-700 rounded lg:md:text-white hover:bg-purple-400 hover:border-purple-500">Random Joke</button>
-                <button class="inline-flex items-center px-4 py-2 space-x-4 font-bold bg-purple-500 border-b-4 border-purple-700 rounded lg:text-white sm:text-gray hover:bg-purple-400 hover:border-purple-500"><svg class="w-4 h-4 mr-2 fill-current" href="./memevault.html" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg><span>Save</span></button>             
+                
+                <button class="inline-flex items-center px-4 py-2 space-x-4 font-bold bg-purple-500 border-b-4 border-purple-700 rounded lg:text-white sm:text-gray hover:bg-purple-400 hover:border-purple-500">
+                    <svg class="w-4 h-4 mr-2 fill-current" href="./memevault.html" viewBox="0 0 20 20">
+                        <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/>
+                            </svg><span>Save</span></button>             
              </div>
             </div>
     </div>
     <footer class="fixed bottom-0 left-0 z-20 w-full p-4 bg-transparent rounded-lg dark:bg-gray-800">
         <div class="w-full max-w-screen-xl p-4 mx-auto md:flex md:justify-between sm:p-0 sm:flex">
-            <span class="invisible sm:visible text-sm text-white text-white-500">© 2023 OnlyLaughs™</a>
+            <span class="invisible text-sm text-white sm:visible text-white-500">© 2023 OnlyLaughs™</a>
             </span>
             <ul 
-                class="flex flex-wrap md:text-center mt-3 text-sm font-medium text-white text-white-500 sm:mt-0">
-                <!-- <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                </li> -->
-                <li>
-                    <a href=".//contacts.html" class="text-sm text-white text-white-500 sm:text-center hover:underline me-4">Contact</a>
-                </li>
+                class="flex flex-wrap mt-3 text-sm font-medium text-white md:text-center text-white-500 sm:mt-0">
+             
+                <button href=".//contacts.html" class="text-sm text-white border-b-4 border-purple-700 rounded text-white-500 sm:text-center hover:border-purple-500 me-4">Contact</button>
         </div>
     </footer>
     <script type=“text/javascript” src=“./assets/js/script.js”></script>
