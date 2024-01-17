@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('/assets/backgroundscheme.jpg');
+  background-image: url('../backgroundscheme.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

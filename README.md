@@ -56,11 +56,11 @@ JavaScript
 
 Home page:
 
-![img](./)
+![img](./assets/images/homepage-screenshot.png)
 
 Meme Vault:
 
-![img](./)
+![img](./assets/images/memevault-screenshot.png)
 
 Contact:
 
@@ -80,5 +80,5 @@ Contact:
 
 ## Live Link
 
-[Live]()
+[Live](https://anthonybuffill.github.io/only-laughs/)
 
